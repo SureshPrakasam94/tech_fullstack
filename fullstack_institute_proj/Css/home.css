@@ -1,0 +1,465 @@
+#total
+{
+ width: 100%;
+
+
+} 
+#nav
+{
+    width: 100%;
+    height: 100px;
+    background-color: #111111;
+    display: flex; 
+}
+#logo
+{
+    width: 20%;
+    background-color: #E02529;
+    height: 100px;
+}
+#logo img
+{
+position: relative;
+left: 60px;
+top: 10px;
+}
+#iname
+{
+    width: 40%;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+#iname span
+{
+ text-align: center;
+ font-size:50px;
+ position: relative;
+ text-align: center;
+
+}
+#iname p{
+    font-size: 20px;
+}
+#navbar
+{
+    width: 40%;
+    
+    background-color: #111111;
+    
+}
+#enquiry
+{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 60px;
+    grid-column-gap: 30px;
+    position: relative;
+    left: 100px;
+    top: 25px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.Enq
+{
+    
+    text-align: center;
+    
+}
+#Enq
+{
+    columns: rgb(241, 6, 45);
+}
+
+/* <!-- Add main page --> */
+
+#mainpage
+{
+    width: 100%;
+    height: 550px;
+    border: 1px solid black;
+    background-color: #332D2E;
+}
+#menubar
+{
+    width: 100%;
+    height: 75px;
+    background-color: rgba(240, 248, 255, 0.2)
+    
+}
+
+#menubar ul
+{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 200px;
+    grid-column-gap: 100px;
+   list-style-type: none;
+   position: relative;
+   justify-content: center;
+   top: 30px;
+}
+#menubar ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.menus
+{
+    font-size: 18px;
+}
+#menubar ul li a:hover
+{
+    
+    color:rgba(243, 9, 48, 0.945);;
+}
+#devimg
+{
+    width: ;
+}
+#info 
+{
+width: 52%;
+height: 500px;
+
+}
+#info h2{
+    color: white;
+    font-size: 56px;
+   text-transform: uppercase;
+   position: relative;
+   left: 100px;
+   top: 49px;
+}
+#info h1
+{
+    color: white;
+    font-size: 56px;
+   text-transform: uppercase;
+   position: relative;
+   left: 200px;
+   top: 49px;
+
+}
+#adver
+{
+    display: flex;
+}
+#devimg img
+{
+position: relative;
+left: 50px;
+top: 24px;
+}
+#fclthead
+{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 25px;
+    
+    
+}
+#fclthead::after
+{
+    content: "---------";
+}
+#fclthead::before
+{
+    content: "---------";
+}
+
+/* #faculties
+{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: px;
+    grid-column-gap: px;
+    height: 350px;
+    background-color: #E02529;
+} */
+#faculties
+{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 320px;
+    grid-column-gap: 100px;
+    position: relative;
+    top: 10px;
+    justify-content: center;
+}
+.fclt
+{
+  border: 1px solid black;
+  border-radius: 21px;
+}
+.fclt p{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    left: 70px;
+   
+}
+.fclt span
+{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 60px;
+    color: rgb(252, 6, 47);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+.fclt h2{
+    
+    text-align: center;
+
+}
+.fclt h4{
+    font-size: 18px;
+    position: relative;
+    left: 25px;
+
+}
+#f1 p
+{
+    background-image: url(../images/Tamil\ sir.jpg);
+    background-size: cover;
+}
+#f2 p
+{
+    background-image: url(../images/Nandeesh.jpg);
+    background-size: cover;
+}
+#f3 p
+{
+    background-image: url(../images/Nagaraj\ sir.jpg);
+    background-size: cover;
+}
+
+
+/* jfkdjfkdjkfjdkkkkkkkkkk */
+
+#crshead
+{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 25px;
+    border-radius: 25px;
+    
+}
+#crshead::after
+{
+    content: "---------";
+}
+#crshead::before
+{
+    content: "---------";
+}
+
+
+.crs p{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    left: 70px;
+   
+}
+.crs span
+{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    left: 60px;
+    color: rgb(252, 6, 47);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+.crs h2{
+    
+    text-align: center;
+
+}
+.crs h4{
+    font-size: 18px;
+    position: relative;
+    left: 25px;
+
+}
+#c1 p
+{
+    background-image: url(../images/java 2.png);
+    background-size: cover;
+    position: relative;
+    
+}
+#c2 p
+{
+    /* background-image: url(../images/java\ 2.jpg);
+    background-size: cover; */
+}
+#c3 p
+{
+    background-image: url(../images/Nagaraj\ sir.jpg);
+    background-size: cover;
+}
+/* Place Students */
+
+#plcestu
+{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: aliceblue;
+    
+}
+#plcestu::after
+{
+    content: "---------";
+}
+#plcestu::before
+{
+    content: "---------";
+}
+#plcestudends
+{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows: 350px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+     justify-content: center;
+     margin-top: 20px;
+    
+}
+.student
+{
+    
+    background-color: #468661;
+    border-radius: 25px;
+    
+    
+}
+.student p
+{
+    width: 150px;
+    height: 150px;
+    
+    border-radius: 100%;
+    position: relative;
+    left: 50px;
+    
+}
+.student h2
+{
+    color: white;
+    background-color: #E02529;
+    position: relative;
+    text-align: center;
+}
+.student h3
+{
+    color: white;
+    position: relative;
+    left: 30px;
+}
+.student h1
+{
+    color: white;
+    position: relative;
+    
+}
+.student span
+{
+    color: rgba(248, 8, 28, 0.966);
+}
+#st1 p
+{
+    background-image: url(../images/Studets/1.jpg);
+    background-size: cover;
+}
+#st2 p
+{
+    background-image: url(../images/Studets/6.jpg);
+    background-size: cover;
+}
+#st3 p
+{
+    background-image: url(../images/Studets/3.jpg);
+    background-size: cover;
+}
+#st4 p
+{
+    background-image: url(../images/Studets/4.jpg);
+    background-size: cover;
+}
+#s5 p
+{
+    background-image: url(../images/Studets/5.jpg);
+    background-size: cover;
+}
+
+
+
+#contact
+{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(93, 233, 74, 0.2);
+
+
+}
+#icons button
+{
+padding: 15px;
+position: relative;
+left: 500px;
+top: 60px;
+margin-left: 30px;
+border-radius: 10px;
+}
+
+#icons button:hover
+{
+    color: rgb(255, 253, 253);
+    background-color: rgb(250, 6, 120);
+}
+#iconletter ul li
+{
+ margin-left: 15px;
+
+}
+#cntc
+{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 25px; 
+}
+#cntc::after
+{
+    content: "-..-------------";
+}
+#cntc::before
+{
+    content: "-------------...-";
+}
